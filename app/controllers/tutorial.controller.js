@@ -121,6 +121,7 @@ exports.delete = (req, res) => {
 };
 
 // Delete all Tutorials from the database.
+/* dangerous
 exports.deleteAll = (req, res) => {
   Tutorial.destroy({
     where: {},
@@ -136,6 +137,7 @@ exports.deleteAll = (req, res) => {
       });
     });
 };
+*/
 
 // find all published Tutorial
 exports.findAllPublished = (req, res) => {
